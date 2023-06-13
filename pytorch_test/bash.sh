@@ -2,7 +2,7 @@
 #SBATCH --job-name=py_torch_test
 #SBATCH --output=py_torch_test%j.log
 #SBATCH --error=py_torch_test%j.err
-#SBATCH --mail-user=REPLACE_USER_NAME@uni-hildesheim.de
+#SBATCH --mail-user=bakhshaliyev@uni-hildesheim.de
 #SBATCH --partition=STUD
 #SBATCH --gres=gpu:1
 
