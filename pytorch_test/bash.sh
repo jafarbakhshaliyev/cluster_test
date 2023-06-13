@@ -6,7 +6,7 @@
 #SBATCH --partition=STUD
 #SBATCH --gres=gpu:1
 
-cd ~/pytorch-test          # navigate to the directory if necessary
+cd ~/pytorch_test          # navigate to the directory if necessary
 source activate pytorchenv
 srun python main.py        # python jobs require the srun command to work
 
